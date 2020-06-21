@@ -1,27 +1,32 @@
 # Creación de las vistas de una pieza
+
 ## Requisitos previos
-Vamos a obtener las vistas de una pieza según los criterios que establece la norma UNE 1-032-82, “Dibujos técnicos: Principios generales de representación”. Esta norma es equivalente a la norma ISO 128-82. Para pbtener las vistas vamos a trabajar en el banco de trabajo *TechDraw*.  
+
+Vamos a obtener las vistas de una pieza según los criterios que establece la norma UNE 1-032-82, “Dibujos técnicos: Principios generales de representación”. Esta norma es equivalente a la norma ISO 128-82. Para pbtener las vistas vamos a trabajar en el banco de trabajo *TechDraw*.
+
 El requisito fundamental para poder obtener las distintas vistas es disponer de una pieza en tres dimensiones de la que obtenerlas y en este caso vamos a utilizar la [pieza número 1/Ficha 1](../Ejercicios/Fichas-referencia/ficha1.pdf) de las fichas citadas en las referencias. En la imagen 1 vemos esta pieza.  
 
 <center>
 
 | Imagen 1 | 
 |:-:|  
-| ![](../img/02/02-1.png) | 
+| ![Pieza en tres dimensiones](../img/02/02-1.png) | 
 | Pieza en tres dimensiones |  
 
 </center>
 
-Para poder trabajar necsitamos [descargar](../Ejercicios/src/02/F1-1.FCStd) el diseño de la imagen 1.  
+Para poder trabajar necesitamos [descargar](../Ejercicios/src/02/F1-1.FCStd) el diseño de la imagen 1.
+
 Si no tenemos un modelo 3D seleccionado la operación que haremos a continuación nos dará error.  
 
 ## Creación de las vistas
+
 En primer lugar debemos insertar un formato o página del tamaño adecuado para contener nuestras vistas y esto lo podemos hacer de dos formas:
 
 | Icono | Descripción|
 |:-:|---|
-| ![](../img/02/ico-plantilla-defecto.png) | Insertar la página por defecto.|
-| ![](../img/02/ico-partir-plantilla.png) | Insertar a partir de una plantilla y escoger la que mas nos interese de entre las existentes. |  
+| ![Insertar la página por defecto](../img/02/ico-plantilla-defecto.png) | Insertar la página por defecto|
+| ![Insertar a partir de una plantilla y escoger la que mas nos interese de entre las existentes](../img/02/ico-partir-plantilla.png) | Insertar a partir de una plantilla y escoger la que mas nos interese de entre las existentes |  
 
 En la imagen 2 vemos como queda el entorno una vez cargada la plantilla A4_Landscape_ISO7200TD.svg. Los cuadraditos verdes indican que el campo en el cajetin es editable.  
 
@@ -29,7 +34,7 @@ En la imagen 2 vemos como queda el entorno una vez cargada la plantilla A4_Lands
 
 | Imagen 2 | 
 |:-:|  
-| ![](../img/02/02-2.png) | 
+| ![Plantilla A4_Landscape_ISO7200TD.svg](../img/02/02-2.png) | 
 | Plantilla A4_Landscape_ISO7200TD.svg |  
 
 </center>
@@ -40,7 +45,7 @@ Con el objeto del que vamos a obtener las vistas seleccionado en “Vista combin
 
 | Imagen 3 | 
 |:-:|  
-| ![](../img/02/02-3.png) | 
+| ![Icono de seleccionar varias vistas](../img/02/02-3.png) | 
 | Icono de seleccionar varias vistas |  
 
 </center>
@@ -49,9 +54,9 @@ En la tarea que se nos abre vamos a seleccionar según los criterios marcados en
 
 <center>
 
-| Imagen 4 | 
+| Imagen 4 |
 |:-:|  
-| ![](../img/02/02-4.png) | 
+| ![Criterios para seleccionar vistas](../img/02/02-4.png) |
 | Criterios para seleccionar vistas |  
 
 </center>
@@ -60,10 +65,10 @@ Cuando cerramos la tarea pulsando el botón *OK* observamos que se nos ha creado
 
 <center>
 
-| Imagen 5 | 
+| Imagen 5 |
 |:-:|  
-| ![](../img/02/02-5.png) | 
-| *Vista combinada* con el árbol de elementos seleccionados |  
+| ![Vista combinada* con el árbol de elementos seleccionados](../img/02/02-5.png) |
+| *Vista combinada con el árbol de elementos seleccionados |  
 
 </center>
 
@@ -71,15 +76,15 @@ Para una obtención correcta de las vistas es necesario que el ajuste de la *dir
 
 | Imagen 6.1 | Imagen 6.2 |
 |:-:|:-:|
-| ![](../img/02/02-6_1.png) | ![](../img/02/02-6_2.png) |
+| ![Vista en alzado](../img/02/02-6_1.png) | ![ Aspecto de las vistas](../img/02/02-6_2.png) |
 | Vista en alzado | Aspecto de las vistas|  
 
 Para ocultar los puntos que marcan los vértices, el marco de cada vista, su nombre y los marcadores de los campos editables del cajetín basta con hacer clic en el icono que vemos en la imagen 7.1 que nos arrojará el resultado que vemos en la imagen 7.2.
 
 | Imagen 7.1 | Imagen 7.2 |
 |:-:|:-:|
-| ![](../img/02/02-7_1.png) | ![](../img/02/02-7_2.png) |
-| Icono para activar o desactivar marcos | Aspecto de las vistas con marcos desactivados| 
+| ![Icono para activar o desactivar marcos](../img/02/02-7_1.png) | ![Aspecto de las vistas con marcos desactivados](../img/02/02-7_2.png) |
+| Icono para activar o desactivar marcos | Aspecto de las vistas con marcos desactivados|
 
 El aspecto final del dibujo con el cajetin cumplimentado lo vemos en la imagen 8.
 
@@ -87,7 +92,7 @@ El aspecto final del dibujo con el cajetin cumplimentado lo vemos en la imagen 8
 
 | Imagen 8 | 
 |:-:|  
-| ![](../img/02/02-8.png) | 
+| ![Aspecto final de la lámina de dibujo](../img/02/02-8.png) | 
 | Aspecto final de la lámina de dibujo |  
 
 </center>
@@ -98,20 +103,22 @@ Observamos como el espacio reservado para title es muy pequeño y además que el
 
 | Imagen 9 | 
 |:-:|  
-| ![](../img/02/02-9.png) | 
+| ![Lámina de dibujo con el nuevo cajetín](../img/02/02-9.png) | 
 | Lámina de dibujo con el nuevo cajetín|  
 
 </center>
 
 ## Acotaciones
-Podemos establecer dimensiones lineales de las vistas en 2D utilizando los iconos correspondientes. Para esto se pueden utilizar dos puntos, una línea o dos líneas. Los iconos y su tipo asociado son muy intuitivos y fáciles de utilizar por lo que no vamos a entrar en mas detalle.  
+
+Podemos establecer dimensiones lineales de las vistas en 2D utilizando los iconos correspondientes. Para esto se pueden utilizar dos puntos, una línea o dos líneas. Los iconos y su tipo asociado son muy intuitivos y fáciles de utilizar por lo que no vamos a entrar en mas detalle.
+
 Puede resultar conveniente, antes de introducir cotas, ir a la personalización de las opciones de visualización (imagen 10), tamaño de textos, tamaño de flechas y demás opciones disponibles para el banco de trabajo *TechDraw* a fin de conseguir un resultado óptimo.  
 
 <center>
 
 | Imagen 10 | 
 |:-:|  
-| ![](../img/02/02-10.png) | 
+| ![Opciones de configuración de TechDraw](../img/02/02-10.png) | 
 | Opciones de configuración de *TechDraw* |  
 
 </center>
@@ -122,27 +129,31 @@ En la imagen 11 vemos el dibujo acotado. Podemos ver como las dimensiones de las
 
 | Imagen 11 | 
 |:-:|  
-| ![](../img/02/02-11.png) | 
+| ![Vistas acotadas con dimesiones en perspectiva erróneas](../img/02/02-11.png) | 
 | Vistas acotadas con dimesiones en perspectiva erróneas |  
 
 </center>
 
 Para solucionar el problema de las dimensiones en vista isométrica vamos a proceder de la siguiente forma:  
-1. hacemos clic en la pestaña 3D y seleccionamos la arista que vamos a vincular con la acotación, como se indica en la imagen 12.1.  
-2. Cambiamos a la pestaña Page y hacemos clic en el botón que vemos en la imagen 12.2.  
+
+1. hacemos clic en la pestaña 3D y seleccionamos la arista que vamos a vincular con la acotación, como se indica en la imagen 12.1.
+
+2. Cambiamos a la pestaña Page y hacemos clic en el botón que vemos en la imagen 12.2.
+
 3. En Vista combinada se nos abre una tarea donde se muestran los nombres de las cotas disponibles para vincular. Si no sabemos exactamente este nombre podemos marcar la cota en la vista Page y en la pestaña Modelo lo podemos ver. Esto también lo podemos hacer anotando previamente los nombres de las cotas o también editando su nombre para ponerle otro mas significativo. El escenario lo vemos en la imagen 12.3.  
 
 | Imagen 12.1 | Imagen 12.2 | Imagen 12.3 |
 |:-:|:-:|:-:| 
-| ![](../img/02/02-12_1.png) |![](../img/02/02-12_2.png) | ![](../img/02/02-12_3.png) |
+| ![Viculación de cotas con objeto 3D](../img/02/02-12_1.png) |![Viculación de cotas con objeto 3D](../img/02/02-12_2.png) | ![Viculación de cotas con objeto 3D](../img/02/02-12_3.png) |
+| Viculación de cotas | |  |
 
 Vamos repitiendo el proceso para cada cota hasta obtener el resultado final que vemos en la imagen 13.
 
 <center>
 
-| Imagen 13 | 
+| Imagen 13 |
 |:-:|  
-| ![](../img/02/02-13.png) | 
+| ![Vistas acotadas con dimesiones en perspectiva correctas](../img/02/02-13.png) |
 | Vistas acotadas con dimesiones en perspectiva correctas |  
 
 </center>
@@ -151,22 +162,23 @@ Si en algún momento la cota vinculada no se actualiza podemos moverla un poco o
 
 <center>
 
-| Imagen 14 | 
+| Imagen 14 |
 |:-:|  
-| ![](../img/02/02-14.png) | 
+| ![Actualizar visualización](../img/02/02-14.png) |
 | Actualizar visualización |  
 
 </center>
 
 ## Exportación a formato vectorial
+
 Puede resultar útil exportar el diseño 2D a formato vectorial como por ejemplo svg o dxf, lo que podemos hacer clicando en los iconos correspondientes y obtener resultados como los que vemos en la imagen 15 que corresponde al svg exportado y abierto con Inkscape.  
 
 <center>
 
-| Imagen 15 | 
+| Imagen 15 |
 |:-:|  
-| ![](../img/02/02-15.png) | 
-| Archivo svg exportado abierto con inkscape | 
+| ![Archivo svg exportado abierto con inkscape](../img/02/02-15.png) |
+| Archivo svg exportado abierto con inkscape |
 
 </center>
 
@@ -174,10 +186,10 @@ En la imagen 16 vemos el resultado esta vez con el archivo exportado a dxf.
 
 <center>
 
-| Imagen 16 | 
+| Imagen 16 |
 |:-:|  
-| ![](../img/02/02-16.png) | 
-| Archivo dxf exportado abierto con inkscape | 
+| ![Archivo dxf exportado abierto con inkscape](../img/02/02-16.png) |
+| Archivo dxf exportado abierto con inkscape |
 
 </center>
 
@@ -185,10 +197,10 @@ Hay una opción más de exportación que no dispone de icono pero que está disp
 
 <center>
 
-| Imagen 17 | 
+| Imagen 17 |
 |:-:|  
-| ![](../img/02/02-17.png) | 
-| Acceso al formato pdf de exportación | 
+| ![Acceso al formato pdf de exportación ](../img/02/02-17.png) |
+| Acceso al formato pdf de exportación |
 
 </center>
 
@@ -196,10 +208,10 @@ El archivo exportado y abierto con un lector de pdf lo tenemos en la imagen 18.
 
 <center>
 
-| Imagen 18 | 
+| Imagen 18 |
 |:-:|  
-| ![](../img/02/02-18.png) | 
-| Archivo pdf exportado abierto con Adobe Reader | 
+| ![Archivo pdf exportado abierto con Adobe Reader](../img/02/02-18.png) |
+| Archivo pdf exportado abierto con Adobe Reader |
 
 </center>
 
@@ -207,9 +219,9 @@ Tenemos algunas herramientas que nos permiten decorar nuestra pieza final pero n
 
 <center>
 
-| Imagen 19 | 
+| Imagen 19 |
 |:-:|  
-| ![](../img/02/02-19.png) | 
-| Pieza decorada | 
+| ![Pieza decorada ](../img/02/02-19.png) |
+| Pieza decorada |
 
 </center>

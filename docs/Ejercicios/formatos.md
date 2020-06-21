@@ -8,3 +8,7 @@ Un archivo STL en realidad es una versión simplificada del  archivo CAD que lo 
 ## Formato AMF
 
 El formato AMF (del inglés  Additive Manufacturing file Format) es un formato de archivo estándar abierto de fabricación aditiva que sirve para describir objetos para procesos de fabricación aditiva como la impresión 3D. Se trata de un formato XML diseñado para que cualquier diseño CAD permita describir la forma y composición de cualquier objeto 3D para su fabricación en una impresora 3D. A diferencia de su formato predecesor, el STL, el formato AMF si incluye información relativa a colores, texturas o propiedades físicas del objeto.
+
+## Formato STEP
+
+Este formato corresponde al título oficial de **ISO 10303** que normalmente se conoce como **STEP** (acrónimo de **ST**andard for the **E**xchange of **P**roduct model data) o Estándar del modelo de datos para intercambio de productos. Se trata de un estándar internacional para el intercambio de archivos entre CAD, CAM y CAE.

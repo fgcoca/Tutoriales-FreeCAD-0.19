@@ -1,21 +1,24 @@
-# Body en PartDesign
-## Definiciones  
-A partir de la versión 0.17 de FreeCAD para trabajar con bocetos es necesario que exista al menos un cuerpo o body, veamos el concepto de cuerpo en que consiste:  
+# Croquizado: Body en PartDesign y Sketcher
 
-*Un cuerpo PartDesign está diseñado para modelar un solo sólido contiguo. El significado de "contiguo" hace referencia a un elemento hecho en una sola pieza, sin partes móviles o sólidos desconectados. Ejemplos de sólidos contiguos son una tuerca, una arandela y un tornillo (imagen 1.1) en que cada uno es una sola pieza sólida sin partes móviles, por lo que cada uno puede ser modelado por un cuerpo PartDesign.    
+## Definiciones
+
+A partir de la versión 0.17 de FreeCAD para trabajar con bocetos desde el banco de trabajo PartDesign es necesario que exista al menos un cuerpo o body, veamos el concepto de cuerpo en que consiste:  
+
+*Un cuerpo PartDesign está diseñado para modelar un solo sólido contiguo. El significado de "contiguo" hace referencia a un elemento hecho en una sola pieza, sin partes móviles o sólidos desconectados. Ejemplos de sólidos contiguos son una tuerca, una arandela y un tornillo (imagen 1.1) en que cada uno es una sola pieza sólida sin partes móviles, por lo que cada uno puede ser modelado por un cuerpo PartDesign.
+
 Una vez que estos sólidos contiguos se unen en algún tipo de disposición, se convierten en un "ensamblaje", como se observa en la imagen 1.2. En un ensamblaje, los objetos no se fusionan, sino que simplemente se "apilan" o se colocan uno al lado del otro, y siguen siendo partes individuales.*  
 
 | Imagen 1.1 | Imagen 1.2 |  
 |:-:|:-:|  
-| ![](../img/01/01-1_1.png) | ![](../img/01/01-1_2.png) | 
-| Tres sólidos contiguos individuales, cada uno de ellos modelado por un cuerpo PartDesign. | Los tres cuerpos individuales ensamblados |
+| ![Tres sólidos contiguos individuales, cada uno de ellos modelado por un cuerpo PartDesign](../img/01/01-1_1.png) | ![Los tres cuerpos individuales ensamblados](../img/01/01-1_2.png) | 
+| Tres sólidos contiguos individuales, cada uno de ellos modelado por un cuerpo PartDesign | Los tres cuerpos individuales ensamblados |
 
 Al crear un *Body* se crea un objeto *Origin* que incluye los ejes X, Y y Z, y los planos estándar que delimitan el espacio. En la imagen 2 vemos estos elementos.  
 
-| Imagen 2.1 | Imagen 2.2 | Imagen 2.3 |    
+| Imagen 2.1 | Imagen 2.2 | Imagen 2.3 |
 |:-:|:-:|:-:|
-| ![](../img/01/01-2_1.png) | ![](../img//01/01-2_2.png) | ![](../img/01/01-2_3.png) |
-| Ejes y planos. | Solo los ejes.  | Solo los planos. |  
+| ![Ejes y planos](../img/01/01-2_1.png) | ![Solo los planos](../img//01/01-2_2.png) | ![](../img/01/01-2_3.png) |
+| Ejes y planos | Solo los ejes.  | Solo los planos |  
 
 Estos elementos se pueden utilizar como referencias para bocetos y objetos primitivos.  
 Cuando hablamos de un cuerpo como un sólido contiguo significa que lo podemos mover como una unidad sin variar las características individuales. Podemos crear múltiples cuerpos para poder crear ensambles. En la imagen 3 vemos el entorno inicial con una figura simple incluida.
@@ -23,7 +26,7 @@ Cuando hablamos de un cuerpo como un sólido contiguo significa que lo podemos m
 
 | Imagen 3 | 
 |:-:|  
-| ![](../img/01/01-3.png) | 
+| ![Sólido, ejes y planos ](../img/01/01-3.png) | 
 | Sólido, ejes y planos  |
 
 </center>
@@ -35,7 +38,7 @@ Si estando en el banco de trabajo PartDesign creamos directamente un boceto se c
 
 | Imagen 4 | 
 |:-:|  
-| ![](../img/01/01-4.png) | 
+| ![Selección de plano XY](../img/01/01-4.png) | 
 | Selección de plano XY  |
 
 </center>
@@ -46,7 +49,7 @@ Vamos a crear nuestro boceto aplicando una restricción de simetría de dos vér
 
 | Imagen 5 | 
 |:-:|  
-| ![](../img/01/01-5.png) | 
+| ![Boceto totalmente restringido](../img/01/01-5.png) | 
 | Boceto totalmente restringido  |
 
 </center>
@@ -57,7 +60,7 @@ Ya podemos salir de la tarea y proceder a extruir nuestro boceto una determinada
 
 | Imagen 6 | 
 |:-:|  
-| ![](../img/01/01-6.png) | 
+| ![Sólido a partir de extrusión de boceto](../img/01/01-6.png) | 
 | Sólido a partir de extrusión de boceto  |
 
 </center>
@@ -69,7 +72,7 @@ Cada plano tiene sus propios ejes de coordenadas X, Y, Z que se conocen como eje
 
 | Imagen 7 | 
 |:-:|  
-| ![](../img/01/01-7.png) | 
+| ![Plano y sus ejes de coordenadas locales](../img/01/01-7.png) | 
 | Plano y sus ejes de coordenadas locales  |
 
 </center>
@@ -80,7 +83,7 @@ La normal a un plano es un vector perpendicular al mismo que coincide con el eje
 
 | Imagen 8 | 
 |:-:|  
-| ![](../img/01/01-8.png) | 
+| ![Vector normal al plano XY](../img/01/01-8.png) | 
 | Vector normal al plano XY  |
 
 </center>
@@ -91,7 +94,7 @@ Cuando creamos un boceto FreeCAD nos sitúa en una vista en la que el vector nor
 
 | Imagen 9 | 
 |:-:|  
-| ![](../img/01/01-9.png) | 
+| ![Visualización del vector normal al crear boceto](../img/01/01-9.png) | 
 | Visualización del vector normal al crear boceto   |
 
 </center>
@@ -101,9 +104,9 @@ La extrusión tipo cota de un boceto se realiza siguiendo la trayectoria del vec
 
 | Imagen 10 | Extrusión tipo cota en plano XY|
 |:-:|---|  
-| ![](../img/01/01-10_1.png) | Con valores positivos   |
-| ![](../img/01/01-10_2.png) | Con valores negativos   |
-| ![](../img/01/01-10_3.png) | Simétrica al plano   |
+| ![Con valores positivos](../img/01/01-10_1.png) | Con valores positivos   |
+| ![Con valores negativos](../img/01/01-10_2.png) | Con valores negativos   |
+| ![Simétrica al plano](../img/01/01-10_3.png) | Simétrica al plano   |
 
 Uno de los tipos de extrusión aplicables en este ejemplo que en particular resulta útil es el de *Dos dimensiones* que vemos en la imagen 11.
 
@@ -111,7 +114,7 @@ Uno de los tipos de extrusión aplicables en este ejemplo que en particular resu
 
 | Imagen 11 | 
 |:-:|  
-| ![](../img/01/01-11.png) | 
+| ![Extrusión de tipo dos dimensiones](../img/01/01-11.png) | 
 | Extrusión de tipo dos dimensiones   |
 
 </center>
@@ -120,19 +123,19 @@ Esto mismo va a ocurrir con el plano de referencia XZ y su vector normal que coi
 
 | Imagen 12 | Extrusión tipo cota en plano XZ|
 |:-:|---|  
-| ![](../img/01/01-12_1.png) | Con valores positivos   |
-| ![](../img/01/01-12_2.png) | Con valores negativos   |
-| ![](../img/01/01-12_3.png) | Simétrica al plano   |
-| ![](../img/01/01-12_4.png) | Dos dimensiones   |
+| ![Con valores positivos](../img/01/01-12_1.png) | Con valores positivos   |
+| ![Con valores negativos](../img/01/01-12_2.png) | Con valores negativos   |
+| ![Simétrica al plano](../img/01/01-12_3.png) | Simétrica al plano   |
+| ![Dos dimensiones](../img/01/01-12_4.png) | Dos dimensiones   |
 
 En la imagen 13 vemos el proceso repetido para el plano YZ y su vector normal, que lógicamente coincide con el eje X. En este caso usamos un cilindro como sólido.
 
 | Imagen 13 | Extrusión tipo cota en plano YZ|
 |:-:|---|  
-| ![](../img/01/01-13_1.png) | Con valores positivos   |
-| ![](../img/01/01-13_2.png) | Con valores negativos   |
-| ![](../img/01/01-13_3.png) | Simétrica al plano   |
-| ![](../img/01/01-13_4.png) | Dos dimensiones   |
+| ![Con valores positivos](../img/01/01-13_1.png) | Con valores positivos   |
+| ![Con valores negativos](../img/01/01-13_2.png) | Con valores negativos   |
+| ![Simétrica al plano](../img/01/01-13_3.png) | Simétrica al plano   |
+| ![Dos dimensiones](../img/01/01-13_4.png) | Dos dimensiones   |
 
 Con los tres sólidos creados podemos hacer una operación booleana de unión y obtener un modelo 3D en el que se ven los cuerpos, los planos de referencia, los vectores normales y por supuesto la cruz de ejes de referencia del sistema. En la imagen 14 lo vemos claramente.
 
@@ -140,7 +143,7 @@ Con los tres sólidos creados podemos hacer una operación booleana de unión y 
 
 | Imagen 14 | 
 |:-:|  
-| ![](../img/01/01-14.png) | 
+| ![ Modelo 3D resultado de la unión de tres sólidos](../img/01/01-14.png) | 
 | Modelo 3D resultado de la unión de tres sólidos   |
 
 </center>
@@ -152,3 +155,24 @@ En la animación siguiente vemos el resultado final.
 ![](../img/GIF/01a.gif)
 
 </center>
+
+## Banco de trabajo Sketcher (croquizador)
+
+Además de la forma descrita de crear un boceto existe otra muy similar, aunque no idéntica, que está disponible desde el banco de trabajo Sketcher.
+
+Podemos crear un croquis a partir del menú Sketch o a través del icono correspondiente.
+
+Si no hemos seleccionado nada, se preguntará por la orientación del croquis, tal y como vemos en la imagen 15.
+
+<center>
+
+| Imagen 15 | 
+|:-:|  
+| ![Selección de la orientación del croquis](../img/01/01-15.png) | 
+| Selección de la orientación del croquis   |
+
+</center>
+
+Tenemos que selecionar el plano dónde queremos que descanse el croquis que estamos creando.
+
+Si seleccionamos *Reverse direction*, el croquis se creará en la parte posterior del plano seleccionado, o sea, como dibujar en la parte trasera de la hoja de papel. El Offset o desplazamiento moverá el croquis perpendicularmente al plano seleccionado en la magnitud establecida.

@@ -25,19 +25,19 @@ nav:
   - Introducción: index.md 
   - Tutoriales: 
     - 1-Body en PartDesign: Tutoriales/01-Body.md
-  #  - 2-Creacion de las vistas de una pieza: Tutoriales/02-Vistas.md
-  #  - 3-Plano referencia que pasa por tres puntos: Tutoriales/03-PR-3-puntos.md
+    - 2-Creacion de las vistas de una pieza: Tutoriales/02-Vistas.md
+    - 3-Plano referencia que pasa por tres puntos: Tutoriales/03-PR-3-puntos.md
   #  - 4-Plano referencia fijado a objetos: Tutoriales/04-PR-fijado-obj.md
   #  - 5-Repaso extrusión por barrido y referencia normal: Tutoriales/05-PR-normal.md
   - Archivos 3D: 
     - Formatos de archivos: Ejercicios/formatos.md
-    - Ejercicios y fichas: 
-      - Fuentes: Ejercicios/src.md
-      - Exportados: Ejercicios/export.md
+    - Ejercicios y fichas: Ejercicios/ejercicios-export.md
+ #     - Fuentes: Ejercicios/src.md
+ #     - Exportados: Ejercicios/export.md
   - Miscelanea:
     - Autor: Miscelanea/about.md 
     - Licencias: Miscelanea/lic.md
-    - Webgrafia: Miscelanea/webgrafia.md
+    - Webgrafia/Bibliografía: Miscelanea/webgrafia.md
     - Software utilizado: Miscelanea/soft.md
 
 # 6. Google Analytics

@@ -1,5 +1,7 @@
 # Software utilizado
 
+* Dibujo 3D [FreeCAD 0.18 / FreeCAD 0.19](https://www.freecadweb.org/)
+  
 * Sistema operativo: [Ubuntu 18.04.4 LTS (Bionic Beaver)](https://releases.ubuntu.com/bionic/)
   
 * Paquete ofimático de referencia: [LibreOffice 6.4](https://es.libreoffice.org/)
@@ -15,7 +17,5 @@
 * Sistema secundario de capturas de pantalla: [Flameshot 0.6.0](https://flameshot.js.org/#/?id=flameshot-060)
   
 * Dibujo 2D vectorial [Inkscape 1.0](https://inkscape.org/es/)
-  
-* Dibujo 3D [FreeCAD 0.18 / FreeCAD 0.19](https://www.freecadweb.org/)
-  
+
 * Retoque de imágenes [GIMP 2.10.14](https://www.gimp.org/)

@@ -1,4 +1,4 @@
-# Webgrafía
+# Webgrafía y bibliografía
 
 ***
 * [Wiki de documentación de freecad](https://wiki.freecadweb.org/)
@@ -15,3 +15,6 @@ Indicación de referencia: en estas fichas cada cuadradito mide 10mm de lado.
 * [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada)
 
 * Canal Youtube [Christian Tutoriales CAD](https://www.youtube.com/channel/UCoODgOD6EYwbqDZfnGfDkbw)  
+
+* Una lección sobre el croquizador de Christoph Blaue traducida por Juan Carlos Ruiz Gómez.
+  
