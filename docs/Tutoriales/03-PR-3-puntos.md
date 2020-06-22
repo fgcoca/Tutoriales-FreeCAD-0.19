@@ -134,7 +134,7 @@ Ahora que tenemos el plano ya podemos utilizarlo para crear nuestro boceto, pero
 
 </center>
 
-Escogemos la herramienta de crear arista vinculada, tal y como se observa en la imagen 13, y creamos una proyección de los tres puntos.
+Escogemos la herramienta de crear arista vinculada, tal y como se observa en la imagen 13, y creamos una proyección de los tres puntos seleccionando la herramienta de crear un punto. Los puntos deben crearse en color verde (100 % restringidos) dado que están asociados al punto de referencia del plano.
 
 <center>
 
