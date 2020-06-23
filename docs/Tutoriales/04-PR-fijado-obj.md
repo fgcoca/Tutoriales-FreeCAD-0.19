@@ -123,18 +123,127 @@ Simplemente queda extruirlo y tenemos finalizada la pieza con una parte creada a
 
 Es evidente que esta misma situación podemos conseguirla de otras formas incluso más sencillas, pero la ventaja que tiene hacerlo mediante un plano es que el trozo creado puede recibir tareas independiente del objeto global relativas por ejemplo a la orientación del plano. En la imagen 12 vemos como hemos rotado el plano en dos ejes y como lo hace la figura.
 
+<center>
 
+| Imagen 12 | |
+|:-:|:-:|  
+| ![Ejes de rotación: Del desvío = Z; Paso = Y y Lanzar = X](../img/04/04-12a.png) | ![Rotación del plano de referencia](../img/04/04-12b.png) |
+| Ejes de rotación: Del desvío = Z; Paso = Y y Lanzar = X | Rotación del plano de referencia |  
 
+</center>
 
-
-
-
+Otro aspecto importante a tener en cuenta cuando trabajamos con planos de referencia es la forma de selección y hay que saber que no es lo mismo seleccionar objetos desde la ventana 3D que desde la vista combinada. Si hacemos un clic en alguna parte de un boceto en la ventana 3D solamente seleccionamos una parte del objeto (imagen 13a), pero en cambio si hacemos clic sobre el objeto en vista combinada el objeto se selecciona entero (imagen 13b).
 
 <center>
 
-| Imagen 1 |
+| Imagen 13a | Imagen 13b |
+|:-:|:-:|  
+| ![Selección desde ventana 3D](../img/04/04-13a.png) | ![Selección desde vista combinada](../img/04/04-13b.png) |
+| Selección desde ventana 3D | Selección desde vista combinada |
+
+</center>
+
+Aunque si podemos hacer un clic sobre un objeto de la parte 3D y una vez seleccionado otro clic sobre el mismo objeto y quedará seleccionado completo.
+
+Si escogemos una arista del boceto y clicamos en crear plano de referencia tendremos la situación de la imagen 14.
+
+<center>
+
+| Imagen 14 |
 |:-:|  
-| ![]() |
-|  |  
+| ![Creación de plano de referencia a partir de selección de arista](../img/04/04-14.png) |
+| Creación de plano de referencia a partir de selección de arista |  
+
+</center>
+
+En cambio si seleccionamos el boceto entero (un objeto) y hacemos lo mismo tendremos la situación que vemos en la imagen 15.
+
+<center>
+
+| Imagen 15 |
+|:-:|  
+| ![Creación de plano a partir de seleccionar el objeto boceto]() |
+| Creación de plano a partir de seleccionar el objeto boceto |  
+
+</center>
+
+Esto mismo ocurre cuando tenemos un sólido y seguimos los mismos procedimientos.
+
+Cuando hemos visto los tipos de referencia las combinaciones de referencia posibles (imagen 16) eran “Cualquiera” que es lo visto hasta ahora y “Cónica” que vamos a tratar a continuación.
+
+<center>
+
+| Imagen 16 |
+|:-:|  
+| ![Tipos de combinaciones de referencia](../img/04/04-16.png) |
+| Tipos de combinaciones de referencia |  
+
+</center>
+
+Recodemos que una sección cónica o simplemente cónica es la curva resultante de la intersección entre un cono y un plano y que pueden ser una de las cuatro que vemos en la imagen 17.
+
+<center>
+
+| Imagen 17 |
+|:-:|  
+| ![Cónicas](../img/04/04-17.png) |
+| Cónicas |  
+
+</center>
+
+Vamos a crear por ejemplo el boceto de una elipse y un círculo y lo hacemos creando un nuevo body, como vemos en la imagen 18.
+
+<center>
+
+| Imagen 18 |
+|:-:|  
+| ![Bocetos de cónicas](../img/04/04-18.png) |
+| Bocetos de cónicas |  
+
+</center>
+
+Vamos a ver las diferencias entre seleccionar desde la ventana 3D y desde la vista combinada. Si hacemos clic en la elipse, por ejemplo, y creamos un nuevo plano de referencia la tarea que se nos abre nos muestra opciones de fijación relacionadas con curvas (Frenet, Concéntrico,...), aunque también nos muestra las opciones vistas hasta ahora de Objetos XY, XZ e YZ. La imagen 19 muestra lo dicho.
+
+<center>
+
+| Imagen 19 |
+|:-:|  
+| ![Opciones de fijación a curvas](../img/04/04-19.png) |
+| Opciones de fijación a curvas |  
+
+</center>
+
+Esto es así porque no están seleccionados todos los objetos (lo vemos en “Seleccionar”) sino solo la elipse.
+
+Si ahora hacemos la selección del boceto desde la vista combinada quedarán seleccionados todos los objetos y la ventana muestra solo los Objetos XY, XZ e YZ y la selección es del boceto completo, como vemos en la imagen 20.
+
+<center>
+
+| Imagen 20 |
+|:-:|  
+| ![Selección de cónicas desde vista combinada](../img/04/04-20.png) |
+| Selección de cónicas desde vista combinada |  
+
+</center>
+
+Si por cualquier circunstancia al intentar crear el plano se nos muestra un mensaje como el de la imagen 21.
+
+<center>
+
+| Imagen 21 |
+|:-:|  
+| ![Error por no tener activo un body](../img/04/04-21.png) |
+| Error por no tener activo un body |  
+
+</center>
+
+Nos dirigimos a la vista combinada y situamos el cursor sobre el cuerpo que queremos poner como activo y haciendo clic con el botón secundario se muestran las opciones (imagen 22), basta con escoger la de cambiar a cuerpo activo y ya estaría.
+
+<center>
+
+| Imagen 22 |
+|:-:|  
+| ![Poner activo un body](../img/04/04-22.png) |
+| Poner activo un body |  
 
 </center>
