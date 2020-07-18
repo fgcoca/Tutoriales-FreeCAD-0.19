@@ -20,7 +20,7 @@ copyright: Copyright &copy; 2020 - 2021 Federico Coca
 #    - type: 'twitter'
 #      link: 'https://twitter.com/fgcoca'
 
-# 5. Navegación # TODO:
+# 5. Navegación 
 nav:
   - Introducción: index.md 
   - Tutoriales: 
@@ -28,7 +28,8 @@ nav:
     - 2-Creacion de las vistas de una pieza: Tutoriales/02-Vistas.md
     - 3-Plano referencia que pasa por tres puntos: Tutoriales/03-PR-3-puntos.md
     - 4-Plano referencia fijado a objetos: Tutoriales/04-PR-fijado-obj.md
-  #  - 5-Repaso extrusión por barrido y referencia normal: Tutoriales/05-PR-normal.md
+    - 5-Repaso extrusión por barrido y referencia normal: Tutoriales/05-PR-normal.md
+    - 6-Búsqueda de ejes locales en superficies planas y superficies curvas: 06-Busqueda-ejes-locales.md
   - Archivos 3D: 
     - Formatos de archivos: Ejercicios/formatos.md
     - Ejercicios y fichas: Ejercicios/ejercicios-export.md
